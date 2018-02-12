@@ -1,0 +1,773 @@
+.computer {
+	background-image: url(../images/icons/computer.png)!important;
+	background-repeat: no-repeat;
+}
+
+.home {
+	background-image: url(../images/icons/house.png)!important;
+	background-repeat: no-repeat;
+}
+
+.cancel {
+	background-image: url(../images/icons/cancel.png)!important;
+	background-repeat: no-repeat;
+}
+.groups{
+	background-image: url(../images/icons/group.png)!important;
+	background-repeat: no-repeat;
+}
+.neicun{
+	background-image: url(../images/common/upload.png)!important;
+	background-repeat: no-repeat;
+}
+
+.key {
+	background-image: url(../images/icons/key.png)!important;
+	background-repeat: no-repeat;
+}
+
+.save {
+	background-image: url(../images/icons/save.png)!important;
+	background-repeat: no-repeat;
+}
+
+.add {
+	background-image: url(../images/icons/add.png)!important;
+	background-repeat: no-repeat;
+}
+
+.modify {
+	background-image: url(../images/icons/edit.png)!important;
+	background-repeat: no-repeat;
+}
+
+.delete {
+	background-image: url(../images/icons/delete.png)!important;
+	background-repeat: no-repeat;
+}
+
+
+.exception{
+	background-image: url(../images/common/application_view_list.png)!important;
+	background-repeat: no-repeat;
+}
+
+.user {
+	background-image: url(../images/icons/user.png)!important;
+	background-repeat: no-repeat;
+}
+
+.user_add {
+	background-image: url(../images/icons/user_add.png)!important;
+	background-repeat: no-repeat;
+}
+
+.user_delete {
+	background-image: url(../images/icons/user_delete.png)!important;
+	background-repeat: no-repeat;
+}
+
+.user_edit {
+	background-image: url(../images/icons/user_edit.png)!important;
+	background-repeat: no-repeat;
+}
+
+.user_go {
+	background-image: url(../images/icons/user_go.png)!important;
+	background-repeat: no-repeat;
+}
+
+.system_settings {
+	background-image: url(../images/icons/cog.png)!important;
+	background-repeat: no-repeat;
+}
+.userAdd_settings {
+	background-image: url(../images/common/chart_organisation.png)!important;
+	background-repeat: no-repeat;
+}
+.role {
+	background-image: url(../images/common/award_star_silver_3.png)!important;
+	background-repeat: no-repeat;
+}
+
+.role_add {
+	background-image: url(../images/icons/group_add.png)!important;
+	background-repeat: no-repeat;
+}
+
+.role_delete {
+	background-image: url(../images/icons/group_delete.png)!important;
+	background-repeat: no-repeat;
+}
+
+.role_edit {
+	background-image: url(../images/icons/group_edit.png)!important;
+	background-repeat: no-repeat;
+}
+
+.role_save {
+	background-image: url(../images/icons/group_go.png)!important;
+	background-repeat: no-repeat;
+}
+
+.reset_pwd {
+	background-image: url(../images/icons/arrow_redo.png)!important;
+	background-repeat: no-repeat;
+}
+
+.module {
+	background-image: url(../images/common/chart_organisation.png)!important;
+	background-repeat: no-repeat;
+}
+
+.module_add {
+	background-image: url(../images/icons/link_add.png)!important;
+	background-repeat: no-repeat;
+}
+
+.module_delete {
+	background-image: url(../images/icons/link_delete.png)!important;
+	background-repeat: no-repeat;
+}
+
+.module_edit {
+	background-image: url(../images/icons/link_edit.png)!important;
+	background-repeat: no-repeat;
+}
+
+.field {
+	background-image: url(../images/icons/tag_blue.png)!important;
+	background-repeat: no-repeat;
+}
+
+.field_add {
+	background-image: url(../images/icons/tag_blue_add.png)!important;
+	background-repeat: no-repeat;
+}
+
+.field_delete {
+	background-image: url(../images/icons/tag_blue_delete.png)!important;
+	background-repeat: no-repeat;
+}
+
+.field_edit {
+	background-image: url(../images/icons/tag_blue_edit.png)!important;
+	background-repeat: no-repeat;
+}
+
+.query {
+	background-image: url(../images/icons/query.png)!important;
+	background-repeat: no-repeat;
+}
+
+.reset {
+	background-image: url(../images/icons/reset.png)!important;
+	background-repeat: no-repeat;
+}
+
+.synchro {
+	background-image: url(../images/icons/arrow_refresh.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_management {
+	background-image: url(../images/icons/briefcase.png)!important;
+	background-repeat: no-repeat;
+}
+
+.app {
+	background-image: url(../images/icons/application.png)!important;
+	background-repeat: no-repeat;
+}
+
+.app_add {
+	background-image: url(../images/icons/application_add.png)!important;
+	background-repeat: no-repeat;
+}
+
+.app_delete {
+	background-image: url(../images/icons/application_delete.png)!important;
+	background-repeat: no-repeat;
+}
+
+.app_edit {
+	background-image: url(../images/icons/application_edit.png)!important;
+	background-repeat: no-repeat;
+}
+
+.appversion {
+	background-image: url(../images/icons/basket.png)!important;
+	background-repeat: no-repeat;
+}
+
+.appversion_add {
+	background-image: url(../images/icons/basket_add.png)!important;
+	background-repeat: no-repeat;
+}
+
+.appversion_delete {
+	background-image: url(../images/icons/basket_delete.png)!important;
+	background-repeat: no-repeat;
+}
+
+.appversion_edit {
+	background-image: url(../images/icons/basket_edit.png)!important;
+	background-repeat: no-repeat;
+}
+
+.applyapp {
+	background-image: url(../images/icons/table.png)!important;
+	background-repeat: no-repeat;
+}
+
+.applyapp_add {
+	background-image: url(../images/icons/table_add.png)!important;
+	background-repeat: no-repeat;
+}
+
+.applyapp_delete {
+	background-image: url(../images/icons/table_delete.png)!important;
+	background-repeat: no-repeat;
+}
+
+.applyapp_edit {
+	background-image: url(../images/icons/table_edit.png)!important;
+	background-repeat: no-repeat;
+}
+
+.start_using {
+	background-image: url(../images/startUsing.png)!important;
+	background-repeat: no-repeat;
+}
+
+.stop_using {
+	background-image: url(../images/stopUsing.png)!important;
+	background-repeat: no-repeat;
+}
+
+.apManage_ap_root {
+	background-image: url(../images/apRegist_ap/root_regist.png)!important;
+	background-repeat: no-repeat;
+}
+
+.apManage_ap_edit {
+	background-image: url(../images/apRegist_ap/edit.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_ap_root {
+	background-image: url(../images/apManage_ap/root_business_ap.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_ap_attach {
+	background-image: url(../images/apManage_ap/business_ap_attach.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_ap_seeApLog {
+	background-image: url(../images/apManage_ap/business_ap_seeApLog.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_ap_app {
+	background-image: url(../images/apManage_ap/ap_app.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_ap_addApp {
+	background-image: url(../images/apManage_ap/ap_addApp.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_ap_editApp {
+	background-image: url(../images/apManage_ap/ap_editApp.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_ap_deleteApp {
+	background-image: url(../images/apManage_ap/ap_deleteApp.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_ap_submitApp {
+	background-image: url(../images/apManage_ap/ap_submitApp.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_ap_queryAppLog {
+	background-image: url(../images/apManage_ap/ap_queryAppLog.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_ap_addApplete {
+	background-image: url(../images/apManage_ap/ap_addApplete.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_ap_editApplete {
+	background-image: url(../images/apManage_ap/ap_editApplete.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_ap_deleteApplete {
+	background-image: url(../images/apManage_ap/ap_deleteApplete.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_ap_submitApplete {
+	background-image: url(../images/apManage_ap/ap_submitApplete.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_ap_queryAppleteLog {
+	background-image: url(../images/apManage_ap/ap_queryAppleteLog.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_ap_test {
+	background-image: url(../images/apManage_ap/ap_test.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_ap_downloadApplete {
+	background-image: url(../images/apManage_ap/ap_downloadApplete.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_ap_queryTestLog {
+	background-image: url(../images/apManage_ap/ap_queryTestLog.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_ap_cap {
+	background-image: url(../images/apManage_ap/ap_cap.png)!important;
+	background-repeat: no-repeat;
+}
+
+.card_refresh {
+	background-image: url(../images/common/card_refresh.png)!important;
+	background-repeat: no-repeat;
+}
+
+.card_activate {
+	background-image: url(../images/common/card_activate.png)!important;
+	background-repeat: no-repeat;
+}
+
+.card_close {
+	background-image: url(../images/common/card_close.png)!important;
+	background-repeat: no-repeat;
+}
+
+.common_search {
+	background-image: url(../images/icons/preview.png)!important;
+	background-repeat: no-repeat;
+}
+
+.common_add {
+	background-image: url(../images/icons/add.png)!important;
+	background-repeat: no-repeat;
+}
+
+.common_edit {
+	background-image: url(../images/icons/edit.png)!important;
+	background-repeat: no-repeat;
+}
+
+.common_delete {
+	background-image: url(../images/icons/delete.png)!important;
+	background-repeat: no-repeat;
+}
+
+.common_save {
+	background-image: url(../images/common/save.png)!important;
+	background-repeat: no-repeat;
+}
+
+.common_reset {
+	background-image: url(../images/common/arrow_refresh.png)!important;
+	background-repeat: no-repeat;
+}
+
+.common_export {
+    background-image: url(../images/icons/btn_export.png)!important;
+    background-repeat: no-repeat;
+}
+
+.business_sp_root {
+	background-image: url(../images/apManage_sp/root_business_sp.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_ap {
+	background-image: url(../images/apManage_sp/sp_ap.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_ap_check {
+	background-image: url(../images/apManage_sp/sp_check.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_loginout {
+	background-image: url(../images/apManage_sp/sp_loginout.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_addAccount {
+	background-image: url(../images/apManage_sp/sp_addAccount.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_editAccount {
+	background-image: url(../images/apManage_sp/sp_editAccount.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_checkPass {
+	background-image: url(../images/apManage_sp/sp_checkPass.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_checkNoPass {
+	background-image: url(../images/apManage_sp/sp_checkNoPass.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_app {
+	background-image: url(../images/apManage_sp/sp_app.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_app_check {
+	background-image: url(../images/apManage_sp/sp_check.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_app_stopApp {
+	background-image: url(../images/apManage_sp/sp_app_stop.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_app_reOnlineApp {
+	background-image: url(../images/apManage_sp/sp_app_reOnline.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_app_offlineApp {
+	background-image: url(../images/apManage_sp/sp_app_offline.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_app_getAppAid {
+	background-image: url(../images/apManage_sp/sp_app_getAid.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_applete_publish {
+	background-image: url(../images/apManage_sp/sp_applete_publish.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_se {
+	background-image: url(../images/apManage_sp/sp_se.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_se_import {
+	background-image: url(../images/apManage_sp/sp_se_import.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_se_assignAp {
+	background-image: url(../images/apManage_sp/sp_se_assignAp.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_sd {
+	background-image: url(../images/apManage_sp/sp_sd.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_addSd {
+	background-image: url(../images/apManage_sp/sp_sd_addSd.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_editSd {
+	background-image: url(../images/apManage_sp/sp_sd_editSd.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_deleteSd {
+	background-image: url(../images/apManage_sp/sp_sd_deleteSd.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_sp_importSd {
+	background-image: url(../images/apManage_sp/sp_sd_importSd.png)!important;
+	background-repeat: no-repeat;
+}
+
+.system_manage_root {
+	background-image: url(../images/system_manage/root_system_manage.png)!important;
+	background-repeat: no-repeat;
+}
+
+.system_manage_org {
+	background-image: url(../images/system_manage/system_org.png)!important;
+	background-repeat: no-repeat;
+}
+
+
+
+.btn_disable {
+	background-image: url(../images/log_manage/btn_disable.png)!important;
+	background-repeat: no-repeat;
+}
+
+.log_root {
+	background-image: url(../images/log_manage/root_log.png)!important;
+	background-repeat: no-repeat;
+}
+
+.log_operate {
+	background-image: url(../images/log_manage/log_operate.png)!important;
+	background-repeat: no-repeat;
+}
+
+.log_business {
+	background-image: url(../images/log_manage/log_business.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_config_root {
+	background-image:
+		url(../images/business_config/root_business_config.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_config_partner {
+	background-image: url(../images/business_config/config_partner.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_config_businessModel {
+	background-image:
+		url(../images/business_config/config_businessModel.png)!important;
+	background-repeat: no-repeat;
+}
+
+.business_config_platform {
+	background-image: url(../images/business_config/config_platform.png)!important;
+	background-repeat: no-repeat;
+}
+
+
+.pai_1 {
+	background-image: url(../images/se_manage/pai_1.gif)!important;
+	background-repeat: no-repeat;
+}
+.pai_2 {
+	background-image: url(../images/se_manage/pai_2.gif)!important;
+	background-repeat: no-repeat;
+}
+.pai_3 {
+	background-image: url(../images/se_manage/pai_3.gif)!important;
+	background-repeat: no-repeat;
+}
+.pai_4 {
+	background-image: url(../images/se_manage/pai_4.gif)!important;
+	background-repeat: no-repeat;
+}
+
+.se_manage_root {
+	background-image: url(../images/se_manage/root_se.png)!important;
+	background-repeat: no-repeat;
+}
+
+.se_manage_regist {
+	background-image: url(../images/se_manage/se_regist.png)!important;
+	background-repeat: no-repeat;
+}
+
+.se_manage_activate {
+	background-image: url(../images/se_manage/se_activate.png)!important;
+	background-repeat: no-repeat;
+}
+
+.push_root {
+	background-image: url(../images/push_manage/root_push.png)!important;
+	background-repeat: no-repeat;
+}
+
+.push_se {
+	background-image: url(../images/push_manage/push_se.png)!important;
+	background-repeat: no-repeat;
+}
+
+.push_se_lock {
+	background-image: url(../images/push_manage/push_se_lock.png)!important;
+	background-repeat: no-repeat;
+}
+
+.push_se_unlock {
+	background-image: url(../images/push_manage/push_se_unlock.png)!important;
+	background-repeat: no-repeat;
+}
+
+.push_se_stop {
+	background-image: url(../images/push_manage/push_se_stop.png)!important;
+	background-repeat: no-repeat;
+}
+
+.push_sd {
+	background-image: url(../images/push_manage/push_sd.png)!important;
+	background-repeat: no-repeat;
+}
+
+.push_sd_add {
+	background-image: url(../images/push_manage/push_sd_add.png)!important;
+	background-repeat: no-repeat;
+}
+
+.push_sd_delete {
+	background-image: url(../images/push_manage/push_se_stop.png)!important;
+	background-repeat: no-repeat;
+}
+
+.push_sd_lock {
+	background-image: url(../images/push_manage/push_se_lock.png)!important;
+	background-repeat: no-repeat;
+}
+
+.push_sd_unlock {
+	background-image: url(../images/push_manage/push_se_unlock.png)!important;
+	background-repeat: no-repeat;
+}
+
+.push_app {
+	background-image: url(../images/push_manage/push_app.png)!important;
+	background-repeat: no-repeat;
+}
+
+.push_app_download {
+	background-image: url(../images/push_manage/push_app_download.png)!important;
+	background-repeat: no-repeat;
+}
+
+.push_app_delete {
+	background-image: url(../images/push_manage/push_se_stop.png)!important;
+	background-repeat: no-repeat;
+}
+
+.push_app_lock {
+	background-image: url(../images/push_manage/push_se_lock.png)!important;
+	background-repeat: no-repeat;
+}
+
+.push_app_unlock {
+	background-image: url(../images/push_manage/push_se_unlock.png)!important;
+	background-repeat: no-repeat;
+}
+
+.push_app_person {
+	background-image: url(../images/push_manage/push_app_person.png)!important;
+	background-repeat: no-repeat;
+}
+
+.air_root {
+	background-image: url(../images/air_manage/root_air.png)!important;
+	background-repeat: no-repeat;
+}
+
+.air_se {
+	background-image: url(../images/air_manage/air_se.png)!important;
+	background-repeat: no-repeat;
+}
+
+.air_sd {
+	background-image: url(../images/air_manage/air_sd.png)!important;
+	background-repeat: no-repeat;
+}
+
+.air_app {
+	background-image: url(../images/air_manage/air_app.png)!important;
+	background-repeat: no-repeat;
+}
+
+.order{
+	background-image: url(../images/order_manage/order.gif)!important;
+	background-repeat: no-repeat;
+}
+
+.order_manage{
+	background-image: url(../images/order_manage/order_manage.gif)!important;
+	background-repeat: no-repeat;
+}
+.order_statistical{
+	background-image: url(../images/order_manage/order_statistical.gif)!important;
+	background-repeat: no-repeat;
+}
+
+.kq{
+	background-image: url(../images/kq_manage/kq.png)!important;
+	background-repeat: no-repeat;
+}
+
+.kq_orderManage{
+	background-image: url(../images/kq_manage/kq_orderManage.png)!important;
+	background-repeat: no-repeat;
+}
+
+.kq_analyse{
+	background-image: url(../images/kq_manage/kq_analyse.png)!important;
+	background-repeat: no-repeat;
+}
+.kq_businessManage{
+	background-image: url(../images/kq_manage/kq_businessManage.png)!important;
+	background-repeat: no-repeat;
+}
+.kq_logManage{
+	background-image: url(../images/kq_manage/kq_logManage.png)!important;
+	background-repeat: no-repeat;
+}
+.kq_paymentManage{
+	background-image: url(../images/kq_manage/kq_paymentManage.png)!important;
+	background-repeat: no-repeat;
+}
+.kq_queryCredit{
+	background-image: url(../images/kq_manage/kq_queryCredit.png)!important;
+	background-repeat: no-repeat;
+}
+
+.kq_transferManage{
+	background-image: url(../images/kq_manage/kq_transferManage.png)!important;
+	background-repeat: no-repeat;
+}
+.kq_userFeedback{
+	background-image: url(../images/kq_manage/kq_userFeedback.png)!important;
+	background-repeat: no-repeat;
+}
+
+
+
+.yichang{
+	background-image: url(../images/icons/yichang.gif)!important;
+	background-repeat: no-repeat;
+}
+.tsm_identity{
+	background-image: url(../images/icons/tsm_identity.gif)!important;
+	background-repeat: no-repeat;
+}
+
+.chip_import {
+	background-image: url(../images/icons/chip_import.gif)!important;
+	background-repeat: no-repeat;
+}
+
+.chip_export {
+	background-image: url(../images/icons/chip_export.gif)!important;
+	background-repeat: no-repeat;
+}

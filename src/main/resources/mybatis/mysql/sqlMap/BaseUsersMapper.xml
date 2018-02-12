@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cnLive.dao.BaseUserMapper" >
+  <resultMap id="BaseResultMap" type="com.cnLive.pojo.BaseUser" >
+    <id column="UID" property="uid" jdbcType="VARCHAR" />
+    <result column="UNAME" property="uname" jdbcType="VARCHAR" />
+    <result column="NICKNAME" property="nickname" jdbcType="VARCHAR" />
+    <result column="GENDER" property="gender" jdbcType="VARCHAR" />
+    <result column="LOCATION" property="location" jdbcType="VARCHAR" />
+    <result column="AVATAR" property="avatar" jdbcType="DECIMAL" />
+    <result column="MOBILE" property="mobile" jdbcType="VARCHAR" />
+    <result column="INTEGRITY" property="integrity" jdbcType="VARCHAR" />
+    <result column="POINT" property="point" jdbcType="VARCHAR" />
+    <result column="EMAIL" property="email" jdbcType="VARCHAR" />
+    <result column="EMAIL_VERIFY" property="emailVerify" jdbcType="VARCHAR" />
+    <result column="LEVEL" property="level" jdbcType="VARCHAR" />
+    <result column="LEVEL_NAME" property="levelName" jdbcType="VARCHAR" />
+    <result column="ALEVEL" property="alevel" jdbcType="VARCHAR" />
+  </resultMap>
+
+  <sql id="Example_Where_Clause" >
+    <trim prefix="where" prefixOverrides="and|or" >
+      <if test="uid != null" >
+        <![CDATA[ and UID = #{uid} ]]> </if>
+      <if test="uname != null" >
+        <![CDATA[ and UNAME = #{uname} ]]> </if>
+      <if test="nickname != null" >
+        <![CDATA[ and NICKNAME = #{nickname} ]]> </if>
+      <if test="gender != null" >
+        <![CDATA[ and GENDER = #{gender} ]]> </if>
+      <if test="location != null" >
+        <![CDATA[ and LOCATION = #{location} ]]> </if>
+      <if test="avatar != null" >
+        <![CDATA[ and AVATAR = #{avatar} ]]> </if>
+      <if test="mobile != null" >
+        <![CDATA[ and MOBILE = #{mobile} ]]> </if>
+      <if test="integrity != null" >
+        <![CDATA[ and INTEGRITY = #{integrity} ]]> </if>
+      <if test="point != null" >
+        <![CDATA[ and POINT = #{point} ]]> </if>
+      <if test="email != null" >
+        <![CDATA[ and EMAIL = #{email} ]]> </if>
+      <if test="emailVerify != null" >
+        <![CDATA[ and EMAIL_VERIFY = #{emailVerify} ]]> </if>
+      <if test="level != null" >
+        <![CDATA[ and LEVEL = #{level} ]]> </if>
+      <if test="levelName != null" >
+        <![CDATA[ and LEVEL_NAME = #{levelName} ]]> </if>
+      <if test="alevel != null" >
+        <![CDATA[ and ALEVEL = #{alevel} ]]> </if>
+    </trim>
+  </sql>
+
+
+  <sql id="Base_Column_List" >
+    UID, UNAME, NICKNAME, GENDER,LOCATION, AVATAR, MOBILE, INTEGRITY, POINT,EMAIL,EMAIL_VERIFY,LEVEL,
+    LEVEL_NAME,ALEVEL
+  </sql>
+
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="java.util.HashMap" >
+    select
+    <if test="distinct" >distinct</if>
+    <include refid="Base_Column_List" />
+    from BASE_USERS
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+
+</mapper>

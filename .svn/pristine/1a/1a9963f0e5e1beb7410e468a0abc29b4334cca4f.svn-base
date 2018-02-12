@@ -1,0 +1,10 @@
+#jdbc.driver=com.mysql.jdbc.Driver
+#jdbc.url=jdbc:mysql://127.0.0.1:3306/icms_data?useUnicode=true&characterEncoding=utf-8
+#jdbc.username=root
+#jdbc.password=6683839
+
+
+jdbc.driver=com.mysql.jdbc.Driver
+jdbc.url=jdbc:mysql://120.92.4.46:3306/lmcms_160530?useUnicode=true&characterEncoding=utf-8
+jdbc.username=root
+jdbc.password=CNLive2016
